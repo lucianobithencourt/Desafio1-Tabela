@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        table {
+            font-weight: bold;
+            margin: auto;
+            width: 300px;
+            border-collapse: collapse;
+        }
+        
+        caption {
+            background-color: lightcoral;
+            padding: 6px;
+            font-weight: bold;
+        }
+        
+        td {
+            text-align: center;
+            padding: 4px;
+            border: 1px solid black;
+        }
+        
+        .colspan {
+            background-color: lime;
+        }
+        
+        .rowspan {
+            background-color: aqua;
+        }
+    </style>
+
+
+    <title>Desafio1 Mesclagem Tabela</title>
+</head>
+
+<body>
+
+    <table>
+        <caption>
+            Desafio-1
+
+        </caption>
+
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2" class="rowspan">3-rowspan</td>
+            <td>4</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>6</td>
+
+            <td>7</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="colspan">8-colspan</td>
+            <td>9</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2" class="rowspan">10-rowspan</td>
+            <td colspan="2" class="colspan">11-colspan</td>
+            <td>12</td>
+        </tr>
+
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <table>
+        <caption>Desafio-2</caption>
+
+        <tr>
+            <td colspan="4" class="colspan">A</td>
+            <td rowspan="6" class="rowspan" >B</td>
+            
+        <tr>
+            
+                <tr>
+                    <td rowspan="6" class="rowspan">C</td>
+                </tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+            
+        </tr>
+
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+         <tr>
+
+        <tr>
+                <td colspan="4" class="colspan">N</td>
+         </tr>
+
+
+       
+
+
+
+    </table>
+
+
+</body>
+
+</html>
